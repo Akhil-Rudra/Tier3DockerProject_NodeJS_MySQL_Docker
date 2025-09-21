@@ -1,0 +1,7 @@
+
+> client@1.0.0 build
+> webpack --mode production
+
+asset bundle.js 1.91 KiB [compared for emit] [minimized] (name: main)
+./src/index.js 3.07 KiB [built] [code generated]
+webpack 5.93.0 compiled successfully in 648 ms

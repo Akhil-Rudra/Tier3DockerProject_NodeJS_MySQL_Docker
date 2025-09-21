@@ -1,0 +1,7 @@
+
+> server@1.0.0 start
+> node server.js
+
+Server is running on http://localhost:5050
+Database connected.
+Users table initialized or already exists.

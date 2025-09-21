@@ -1,0 +1,7 @@
+CONTAINER ID   IMAGE                                        COMMAND                  CREATED              STATUS                        PORTS                                       NAMES
+03c4374d07cc   tier3dockerproject_nodejs_mysql_docker-app   "docker-entrypoint.s…"   About a minute ago   Up About a minute             0.0.0.0:5050->5050/tcp                      node_app
+8086798c6e72   mysql:8.0                                    "docker-entrypoint.s…"   About a minute ago   Up About a minute (healthy)   0.0.0.0:3306->3306/tcp, 33060/tcp           mysql
+a4310fd49553   registry:2                                   "/entrypoint.sh /etc…"   2 weeks ago          Up 18 minutes                 0.0.0.0:5001->5000/tcp, :::5001->5000/tcp   kind-registry
+0d53ee148f2c   kindest/node:v1.34.0                         "/usr/local/bin/entr…"   2 weeks ago          Up 18 minutes                                                             acl-worker
+52366fc05032   kindest/node:v1.34.0                         "/usr/local/bin/entr…"   2 weeks ago          Up 18 minutes                                                             acl-worker2
+1fcf64b11243   kindest/node:v1.34.0                         "/usr/local/bin/entr…"   2 weeks ago          Up 18 minutes                 127.0.0.1:54829->6443/tcp                   acl-control-plane
